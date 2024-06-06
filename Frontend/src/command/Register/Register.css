@@ -1,0 +1,52 @@
+.background-login {
+  background-image: url('../../../assets/img/background-log-reg.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* opacity: 65%; */
+}
+
+#logo-login {
+  margin-top: 20px;
+  margin-left: 5px;
+  width: 7rem;
+}
+
+.login-form {
+  height: 550px;
+  opacity: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  align-items: center;
+  justify-content: center;
+  /* text-align: center; */
+  width: 400px;
+  margin-bottom: 10px;
+  height: 40px;
+  border-color: #fafafa;
+  border-radius: 7px;
+}
+
+input::placeholder {
+  padding-left: 10px;
+}
+
+.img {
+  width: 500px;
+}
+
+.description {
+  top: 250px;
+  font-weight: bold;
+}
+
+.after-reg-form {
+  display: flex;
+  flex-direction: column;
+}

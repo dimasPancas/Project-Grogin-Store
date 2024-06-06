@@ -1,0 +1,138 @@
+/* Global */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Container */
+.homepage-admin-container {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Sidebar */
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 250px;
+    background-color: #634C9F;
+    color: white;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    transition: width 0.3s;
+}
+
+.logo {
+    height: 25px;
+    margin: 20px 0px 10px 35px;
+}
+
+.sidebar-button {
+    background-color: #634C9F;
+    color: white;
+    border-radius: 5px;
+    width: 230px;
+    box-shadow: none;
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+}
+
+.sidebar-button.active {
+    background-color: white;
+    color: #634C9F;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1), 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-button:hover {
+    background-color: #7a5bc1;
+    border-radius: 5px;
+}
+
+.sidebar-button.active:hover {
+    background-color: white;
+}
+
+.sidebar-icon {
+    color: white;
+    transition: color 0.3s;
+}
+
+.sidebar-icon.active-icon {
+    color: #634C9F;
+}
+
+.sidebar-text {
+    font-weight: bold;
+}
+
+/* Content */
+.content {
+    flex: 1;
+    margin-left: 250px;
+    height: 100vh;
+    overflow-y: auto;
+    background-color: #fafafa;
+    transition: margin-left 0.3s;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 250px;
+    right: 0;
+    background-color: #fafafa;
+    z-index: 5;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+    transition: left 0.3s;
+}
+
+.dynamic-content {
+    padding: 20px;
+    margin-top: 50px;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 200px;
+    }
+
+    .content {
+        margin-left: 200px;
+    }
+
+    .header {
+        left: 200px;
+    }
+}
+
+@media (max-width: 576px) {
+    .sidebar {
+        width: 100px;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .sidebar-button {
+        width: 90px;
+    }
+
+    .sidebar-text {
+        display: none;
+    }
+
+    .content {
+        margin-left: 100px;
+    }
+
+    .header {
+        left: 100px;
+    }
+}

@@ -1,0 +1,13 @@
+D:\GroginStore\Backend\GroginStore\GroginStore.Domain\bin\Release\net8.0\GroginStore.Domain.deps.json
+D:\GroginStore\Backend\GroginStore\GroginStore.Domain\bin\Release\net8.0\GroginStore.Domain.dll
+D:\GroginStore\Backend\GroginStore\GroginStore.Domain\bin\Release\net8.0\GroginStore.Domain.pdb
+D:\GroginStore\Backend\GroginStore\GroginStore.Domain\obj\Release\net8.0\GroginStore.Domain.csproj.AssemblyReference.cache
+D:\GroginStore\Backend\GroginStore\GroginStore.Domain\obj\Release\net8.0\GroginStore.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\GroginStore\Backend\GroginStore\GroginStore.Domain\obj\Release\net8.0\GroginStore.Domain.AssemblyInfoInputs.cache
+D:\GroginStore\Backend\GroginStore\GroginStore.Domain\obj\Release\net8.0\GroginStore.Domain.AssemblyInfo.cs
+D:\GroginStore\Backend\GroginStore\GroginStore.Domain\obj\Release\net8.0\GroginStore.Domain.csproj.CoreCompileInputs.cache
+D:\GroginStore\Backend\GroginStore\GroginStore.Domain\obj\Release\net8.0\GroginStore.Domain.sourcelink.json
+D:\GroginStore\Backend\GroginStore\GroginStore.Domain\obj\Release\net8.0\GroginStore.Domain.dll
+D:\GroginStore\Backend\GroginStore\GroginStore.Domain\obj\Release\net8.0\refint\GroginStore.Domain.dll
+D:\GroginStore\Backend\GroginStore\GroginStore.Domain\obj\Release\net8.0\GroginStore.Domain.pdb
+D:\GroginStore\Backend\GroginStore\GroginStore.Domain\obj\Release\net8.0\ref\GroginStore.Domain.dll
